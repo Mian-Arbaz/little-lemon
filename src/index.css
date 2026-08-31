@@ -1,0 +1,83 @@
+:root {
+  --color-primary-green: #495e57;
+  --color-yellow: #f4ce14;
+  --color-bg-light: #edefee;
+  --color-text-dark: #333333;
+  --color-white: #ffffff;
+  --color-error: #b3261e;
+  --color-error-bg: #fdecea;
+  --color-success-bg: #eaf6ec;
+  --color-success-border: #2f7d3e;
+
+  --font-display: 'Markazi Text', serif;
+  --font-body: 'Karla', sans-serif;
+
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --shadow-card: 0 10px 25px rgba(51, 51, 51, 0.1);
+
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-text-dark);
+  background: var(--color-white);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  color: var(--color-primary-green);
+  margin: 0 0 0.5em;
+  line-height: 1.1;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: var(--color-primary-green);
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-yellow);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
