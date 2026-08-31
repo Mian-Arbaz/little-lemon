@@ -1,4 +1,6 @@
-# Little Lemon Restaurant — Table Booking Website
+## Live Demo
+
+Check out the live demo here: [Little Lemon — Live Demo](little-lemon-fcykd0n1v-arbazs-projects-85cefc61.vercel.app)# Little Lemon Restaurant — Table Booking Website
 
 A responsive, accessible React web application for **Little Lemon**, a fictional
 Mediterranean restaurant, built for the Coursera peer-graded assignment
